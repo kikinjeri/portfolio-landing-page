@@ -1,0 +1,9 @@
+.contact {
+  text-align: center;
+}
+
+.contact a {
+  color: var(--accent);
+  text-decoration: none;
+}
+

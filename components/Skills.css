@@ -1,0 +1,33 @@
+.about {
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  max-width: 700px;
+  margin: 0 auto 30px;
+  color: #4b5563;
+}
+
+/* One clean line of skills */
+.skills-line {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skill-pill {
+  padding: 8px 16px;
+  background: #e5e7eb;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1f2937;
+}
+
+

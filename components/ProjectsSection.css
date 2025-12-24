@@ -1,0 +1,10 @@
+.section-title {
+  text-align: center;
+  font-size: var(--font-large);
+  margin-bottom: 40px;
+}
+
+.projects-grid {
+  display: grid;
+  gap: 24px;
+}
