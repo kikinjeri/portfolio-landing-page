@@ -1,28 +1,39 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import "./Navbar.css";
+import { useEffect, useState } from "react";
 
 export default function Navbar() {
-  const [light, setLight] = useState(false);
+  const [dark, setDark] = useState(false);
 
   useEffect(() => {
-    document.body.classList.toggle("light", light);
-  }, [light]);
+    if (dark) {
+      document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
+    }
+  }, [dark]);
 
   return (
     <nav className="nav fade-up">
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+      <div className="nav-links">
+        <a href="#hero" className="nav-link">
+          Home
+        </a>
+        <a href="#projects" className="nav-link">
+          Projects
+        </a>
+        <a href="#contact" className="nav-link">
+          Contact
+        </a>
+      </div>
 
       <button
-        className="theme-toggle"
-        onClick={() => setLight(!light)}
+        className="theme-toggle-btn"
+        onClick={() => setDark((prev) => !prev)}
       >
-        {light ? "☀️" : "🌙"}
+        <span>{dark ? "●" : "○"}</span>
+        <span>{dark ? "Dark" : "Light"}</span>
       </button>
     </nav>
   );
 }
-
-

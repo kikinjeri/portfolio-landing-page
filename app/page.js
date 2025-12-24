@@ -1,23 +1,22 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import Skills from "@/components/Skills";
+import TechScroller from "@/components/TechScroller";
 import ProjectsSection from "@/components/ProjectsSection";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import TechScroller from "@/components/TechScroller";
 
 export default function Home() {
   return (
-    <>
+    <div className="page-root">
       <Navbar />
-      <Hero />
-      <TechScroller />
-      
-      <ProjectsSection />
-      <Contact />
+      <main>
+        <Hero />
+        <TechScroller />
+        <ProjectsSection />
+        <Contact />
+      </main>
       <Footer />
-    </>
+    </div>
   );
 }
-
 
