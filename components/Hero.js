@@ -17,8 +17,8 @@ export default function Hero() {
             </h1>
 
             <p className="text-subtitle">
-              I design and develop modern, performant web applications with a
-              focus on clarity, usability, and polish.
+              I design and develop modern, responsive, and interactive web applications with a
+              focus on accessibility, usability, and polish.
             </p>
 
             <div className="hero-meta">

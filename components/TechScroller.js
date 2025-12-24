@@ -1,14 +1,13 @@
 export default function TechScroller() {
   const tech = [
+    "JavaScript",
     "React",
     "Next.js",
-    "TypeScript",
     "Node.js",
     "Express",
-    "PostgreSQL",
     "MongoDB",
     "REST APIs",
-    "CSS / Tailwind",
+    "CSS / MUI",
     "Testing",
   ];
 

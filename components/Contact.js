@@ -16,7 +16,7 @@ export default function ContactSection() {
 
         <form
           className="contact-form"
-          action="https://formsubmit.co/githiimwihaki@gmail.com"
+          action="https://formsubmit.com/githiimwihaki@gmail.com"
           method="POST"
         >
           {/* Disable captcha */}
