@@ -14,6 +14,7 @@ export default function Home() {
         <TechScroller />
         <ProjectsSection />
         <Contact />
+        <thank-you />
       </main>
       <Footer />
     </div>
