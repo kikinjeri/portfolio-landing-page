@@ -12,6 +12,7 @@ const projects = [
       "A responsive financial analytics dashboard featuring charts, transactions, and category insights. Designed with a clean UI and real‑time data visualization.",
     stack: ["React", "Next.js", "Charts.js"],
     link: "https://github.com/kikinjeri/Finance-dashboard",
+    link: ""
   },
   {
     name: "Recipe App",
